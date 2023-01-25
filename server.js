@@ -9,7 +9,7 @@ const port = process.env.port ||  8000
 
 app.use(router)
 app.get("/", (req,res)=>{
-    res.send("server started ")
+    res.sendStatus(200)
 })
 app.listen(port, ()=>{
     console.log(`Listening on ${port}`)
