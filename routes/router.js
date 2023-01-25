@@ -10,6 +10,7 @@ router.post("/register", (req, res) => {
         <h2>User Information</h2>
         <p>First Name: ${first_name} </p>
         <p>Last Name:  ${last_name}</p>
+        <p>Email:  ${email}</p>
         <p>Phone:  ${phone}</p>
         <p>Message:  ${message}</p>
         <p>Resume Link:  ${resume_location}</p>
